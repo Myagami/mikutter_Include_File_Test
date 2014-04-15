@@ -1,9 +1,12 @@
 ---
-slug: :Metal_Wolf_Chaos
+slug: :Include_File_Test
 depends:
   mikutter: 0.2.2.1537
-  plugin: []
+  plugin:
+  - command
+  - gtk
 version: '1.0'
 author: masayoshi_main
-name: Metal Wolf Chaos
-description: 某言い回しが中二病な大統領に誰でもなれる!
+name: Include_File_Test
+description: file include action monitor
+repository: git@github.com:masayoshimashita/mikutter_Include_File_Test.git
